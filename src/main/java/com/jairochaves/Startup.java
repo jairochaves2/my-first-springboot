@@ -1,4 +1,4 @@
-package com.jairochaves.meuprimeiroprojeto2;
+package com.jairochaves;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

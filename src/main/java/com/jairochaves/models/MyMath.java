@@ -1,4 +1,4 @@
-package com.jairochaves.meuprimeiroprojeto2.models;
+package com.jairochaves.models;
 
 public class MyMath {
     private final long id;

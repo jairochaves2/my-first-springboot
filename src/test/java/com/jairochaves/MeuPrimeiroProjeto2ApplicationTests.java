@@ -1,4 +1,4 @@
-package com.jairochaves.meuprimeiroprojeto2;
+package com.jairochaves;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
