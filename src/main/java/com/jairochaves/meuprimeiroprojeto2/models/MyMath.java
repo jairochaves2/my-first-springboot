@@ -1,10 +1,10 @@
 package com.jairochaves.meuprimeiroprojeto2.models;
 
-public class Greeting {
+public class MyMath {
     private final long id;
     private final String content;
 
-    public Greeting(long id, String content) {
+    public MyMath(long id, String content) {
         this.id = id;
         this.content = content;
     }
