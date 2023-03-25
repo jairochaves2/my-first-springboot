@@ -1,19 +1,28 @@
 package com.jairochaves.models;
 
 public class MyMath {
-    private final long id;
-    private final String content;
-
-    public MyMath(long id, String content) {
-        this.id = id;
-        this.content = content;
+    public Double sum(Double numberOne, Double numberTwo) {
+        return (numberOne) + (numberTwo);
     }
 
-    public long getId() {
-        return id;
+    public Double sub(Double numberOne, Double numberTwo) {
+        return (numberOne) - (numberTwo);
     }
 
-    public String getContent() {
-        return content;
+    public Double mult(Double numberOne, Double numberTwo) {
+        return (numberOne) * (numberTwo);
+    }
+
+    public Double div(Double numberOne, Double numberTwo) {
+
+        return (numberOne) / (numberTwo);
+    }
+
+    public Double avg(Double n1, Double n2) {
+        return (n1 + n2) / 2;
+    }
+
+    public Double rq(Double numberOne) {
+        return Math.sqrt((numberOne));
     }
 }
