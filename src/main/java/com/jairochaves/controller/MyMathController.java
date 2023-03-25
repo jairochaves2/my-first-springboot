@@ -1,5 +1,6 @@
 package com.jairochaves.controller;
 
+import com.jairochaves.exceptions.UnsupportedMathOperationException;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -9,7 +10,7 @@ public class MyMathController {
                       @PathVariable(value = "numberTwo") String numberTwo) throws Exception {
 
         if (!isNumeric(numberOne) || !isNumeric(numberTwo)){
-            throw new Exception("");
+            throw new UnsupportedMathOperationException("Please set a numeric value!");
         }
         return convertToDouble(numberOne) + convertToDouble(numberTwo);
     }
