@@ -54,16 +54,4 @@ public class PersonServices {
         var entity = repository.findById(id).orElseThrow(() -> new ResourceNotFoundException("No records found for this ID"));
         repository.delete(entity);
     }
-
-    private Person mockPerson(int i) {
-        Person p = new Person();
-        p.setId(Long.valueOf(i));
-        p.setFirstName("Leandro " + i);
-        p.setLastName("Silva " + i);
-        p.setAddress("Sobral " + i);
-        p.setGender("Male");
-        return p;
-    }
-
-
 }
